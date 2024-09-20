@@ -37,6 +37,7 @@ const statusDescriptions: { [key: number]: string } = {
     417: 'Expectation Failed: The server cannot meet the requirements of the Expect request-header field.',
     418: "I'm a teapot: This code was defined in 1998 as one of the traditional IETF April Fools' jokes.",
     421: 'Misdirected Request: The request was directed at a server that is not able to produce a response.',
+    422: 'Unprocessable Entity',
     426: 'Upgrade Required: The client should switch to a different protocol such as TLS/1.0.',
     428: 'Precondition Required: The origin server requires the request to be conditional.',
     429: 'Too Many Requests: The user has sent too many requests in a given amount of time ("rate limiting").',
